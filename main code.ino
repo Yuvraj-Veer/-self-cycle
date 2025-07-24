@@ -11,9 +11,9 @@ float integral = 0.0;
 unsigned long lastTime = 0;
 
 // PID coefficients (tune these)
-float Kp = 2.0;
-float Ki = 0.0;
-float Kd = 0.2;
+float Kp = 2.2;
+float Ki = 0.58;
+float Kd = 0.21;
 
 void setup() {
   Serial.begin(19200);
